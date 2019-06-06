@@ -1,16 +1,200 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Aula CSS Grid Layout - 01</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Aula CSS Grid Layout - 01</title>
-  <link rel="stylesheet" href="main.css">
-</head>
+  <body>
+    <header class="header">
+      <h1><a href="/">Logo</a></h1>
+      <nav class="menu">
+        <li><a href="/">Portifílio</a></li>
+        <li><a href="/">Sobre</a></li>
+        <li><a href="/">Contato</a></li>
+      </nav>
+    </header>
+    <!-- =====================================Fim Cabeçalho============================================= -->
+    <h2>Section FlexBox</h2>
+    <section class="container flex-section">
+      <div>
+        <img src="img/lobo1.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div>
+        <img src="img/lobo2.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div>
+        <img src="img/lobo3.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div>
+        <img src="img/lobo2.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div>
+        <img src="img/lobo1.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div>
+        <img src="img/lobo3.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+    </section>
+    <!-- =====================================Fim Flex Section============================================= -->
+    <h2>Section Grid Layout 1</h2>
+    <section class="container grid-1">
+      <div class="grid-item">
+        <img src="img/lobo1.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="grid-item">
+        <img src="img/lobo2.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="grid-item">
+        <img src="img/lobo3.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="grid-item">
+        <img src="img/lobo2.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="grid-item">
+        <img src="img/lobo1.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="grid-item">
+        <img src="img/lobo3.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="grid-item">
+        <img src="img/lobo2.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="grid-item">
+        <img src="img/lobo1.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="grid-item">
+        <img src="img/lobo3.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
 
-<body>
+      <div class="grid-item">
+        <img src="img/lobo1.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+    </section>
+    <!-- =====================================Fim Grid 1============================================= -->
+    <h2>Section Grid Layout 2</h2>
+    <section class="container grid-2">
+      <div class="grid-video">
+        <img src="img/lobo1.jpg" />
+        <h3 class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </h3>
+        <p class="tagline">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+          expedita optio placeat perspiciatis ratione. Cupiditate dolor
+          consequuntur ducimus quod! Nemo modi quisquam consectetur velit
+          doloremque qui inventore labore molestias eum.
+        </p>
+      </div>
+      <aside class="sidebar">
+        <div class="grid-item">
+          <img src="img/lobo2.jpg" />
+          <p class="legenda">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="grid-item">
+          <img src="img/lobo3.jpg" />
+          <p class="legenda">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="grid-item">
+          <img src="img/lobo2.jpg" />
+          <p class="legenda">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="grid-item">
+          <img src="img/lobo1.jpg" />
+          <p class="legenda">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="grid-item">
+          <img src="img/lobo3.jpg" />
+          <p class="legenda">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </aside>
+    </section>
 
-</body>
+    <!-- =====================================Fim Grid 2============================================= -->
 
+    <h2>Section Grid Layout 3</h2>
+    <section class="container grid-3">
+      <div class="grid-item">
+        <img src="img/lobo4.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="grid-item">
+        <img src="img/lobo1.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="grid-item">
+        <img src="img/lobo2.jpg" />
+        <p class="legenda">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+    </section>
+
+    <!-- =====================================Fim Grid 3============================================= -->
+  </body>
 </html>
